@@ -1,0 +1,79 @@
+#body{
+    font-family: 'Courier New', Courier, monospace;
+}
+#judul{
+    text-align: center;
+    border-left: 3px solid rgb(64, 198, 198);
+    border-right: 3px solid rgb(64, 198, 198);
+    border-bottom: 2px solid rgb(64, 198, 198);
+    border-top: 2px solid rgb(64, 198, 198);  
+    background-color: rgb(87, 252, 252);
+}
+#sambutan{
+    text-align: center;
+}
+
+/* Luas Segitiga */
+#luas-segitiga{
+    text-align: center;
+    border-top: 3px solid rgb(33, 203, 147);
+    background-color: aquamarine;
+    border-bottom: 3px solid rgb(33, 203, 147);
+}
+
+
+/* input luas Section */
+.input-luas-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+}
+label{
+    margin-bottom:4 px;
+    font-weight: bold ;}
+.katik-input{
+    outline: none;
+    border-radius: 10 px;
+    padding: 4px;
+    border-color: 1px blue;
+}
+.katik-input:focus{
+    border: 1 px solid purple;
+}
+.buttons{
+    display: flex;
+    align-self: center;
+    gap: 30 px;
+    margin-top: 10 px;
+}
+
+button{
+    background-color: darkcyan;
+    color: white;
+    padding: 10 px;
+    border-radius: 10px;
+    border: none;
+}
+button:active{
+    background-color: yellowgreen ;
+    transform: translateY(5px);
+}
+
+/* Input keliling section */
+#keliling-segitiga{
+    text-align: center;
+    border-top: 3px solid rgb(33, 203, 147);
+    background-color: aquamarine;
+    border-bottom: 3px solid rgb(33, 203, 147);
+}
+.input-keliling-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+}
+.button{
+    display: flex;
+    align-self: center;
+    gap: 30 px;
+    margin-top: 10 px;
+}

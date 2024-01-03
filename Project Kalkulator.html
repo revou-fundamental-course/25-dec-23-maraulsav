@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF 8">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <title> Kalkulator Segitiga </title>
+    <link rel="stylesheet" href="Style.css" />
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1 id="judul"> WELCOME TO KATIK </h1>
+        <p id="sambutan">Hai sobat, selamat datang di KATIK :]</p>
+        <p id="sambutan">Sebuah web apps sederhana yang berfungsi untuk menghitung luas dan keliling segitiga</p>
+    </header>
+    
+    <section class="input-luas-section">
+        <h2 id="luas-segitiga"> Luas Segitiga </h2>
+        <img src="luas-segitiga-image.jpg" alt="Luas Segitiga" width="device-width" height="400"/>
+
+        <label for="input-tinggi" id="label-tinggi" > Tinggi (cm) </label>
+        <input type="number" id="tinggi" name="tinggi" class="katik-input">
+
+        <label for="input-alas" id="label-alas" > Alas (cm) </label>
+        <input type="number" id="alas" name="alas" class="katik-input">
+
+        <tr>
+            <td>Luas</td>
+            <td>:</td>
+            <td><input type="number" id="luas" name="luas" disabled="true" size="5"></td>
+
+        </tr>
+        <br>
+        <div class="buttons">
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="button" value="Hitung" onclick="hitungluas()"></td>
+            </tr>
+            
+        </div>
+
+
+
+    </section>
+    <br>
+    <section class="input-keliling-section" >
+        <h2 id="keliling-segitiga"> Keliling Segitiga</h2>
+        <img src="keliling-segitiga-image.jpeg" alt="Luas Segitiga" width="device-width" height="400"/>
+        <label for="input-sisi1" id="label-sisi1" > Sisi Pertama </label>
+        <input type="number" id="sisi1" name="sisi1" class="katik-input">
+
+        <label for="input-sisi2" id="label-sisi2" > Sisi Kedua </label>
+        <input type="number" id="sisi2" name="sisi2" class="katik-input">
+
+        <label for="input-sisi3" id="label-sisi3" > Sisi Ketiga </label>
+        <input type="number" id="sisi3" name="sisi3" class="katik-input">
+        <tr>
+            <td>Keliling</td>
+            <td>:</td>
+            <td><input type="number" id="keliling" name="keliling" disabled="true" size="5"></td>
+
+        </tr>
+        <br>
+        <div class="button">
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="button" value="Hitung" onclick="hitungkeliling()"></td>
+            </tr>
+        </div>
+    </section>
+</body>
+</html>
