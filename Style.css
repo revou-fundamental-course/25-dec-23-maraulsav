@@ -65,6 +65,12 @@ button{
     border-radius: 10px;
     border: none;
 }
+.button{
+    display: flex;
+    align-self: center;
+    gap: 30px;
+    margin-top:10px
+}
 button:active{
     background-color: yellowgreen ;
     transform: translateY(5px);
