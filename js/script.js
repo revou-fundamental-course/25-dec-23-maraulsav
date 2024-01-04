@@ -1,6 +1,6 @@
 function hitungluas(){
-    const alas   = document.getElementById("alas").value;
-    const tinggi = document.getElementById("tinggi").value;
+    const alas   = document.getElementById("input-alas").value;
+    const tinggi = document.getElementById("input-tinggi").value;
    document.getElementById('luas').value = 0.5*alas*tinggi;
 }
 function hitungkeliling(){

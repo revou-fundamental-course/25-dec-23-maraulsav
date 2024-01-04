@@ -6,7 +6,6 @@
     <title> Kalkulator Segitiga </title>
     <link rel="stylesheet" href="Style.css" />
     <script src="js/script.js"></script>
-
 </head>
 <body>
     <header>
@@ -14,21 +13,23 @@
         <p id="sambutan">Hai sobat, selamat datang di KATIK :]</p>
         <p id="deskripsi">Sebuah web apps sederhana yang berfungsi untuk menghitung luas dan keliling segitiga</p>
     </header>
-    
     <section class="input-luas-section">
         <h2 id="luas-segitiga"> Luas Segitiga </h2>
-        <img src="luas-segitiga-image.jpg" alt="Luas Segitiga" width="device-width"/>
-        <label for="tinggi" id="label-tinggi"> Tinggi (cm) </label>
-        <input type="number" id="tinggi" name="tinggi" class="katik-input">
-        <label for="alas" id="label-alas"> Alas (cm) </label>
-        <input type="number" id="alas" name="alas" class="katik-input">
+        <img src="luas-segitiga-image.jpg" alt="Luas Segitiga" width="device-width" height="400"/>
+
+        <label for="input-tinggi" id="label-tinggi" > Tinggi (cm) </label>
+        <input type="number" id="input-tinggi" name="tinggi" class="katik-input">
+
+        <label for="input-alas" id="label-alas" > Alas (cm) </label>
+        <input type="number" id="input-alas" name="alas" class="katik-input">
+
         <label for="luas" id="label-luas">Luas :</label>
         <input type="number" id="luas" name="luas" class="katik-output" disabled="disabled" size="5">
         <br>
         <input type="button" value="Hitung" class="buttons" onclick="hitungluas()">
     </section>
     <br>
-    <section class="input-keliling-section" >
+    <section class="input-keliling-section">
         <h2 id="keliling-segitiga"> Keliling Segitiga</h2>
         <img src="keliling-segitiga-image.jpeg" alt="Luas Segitiga" width="device-width"/>
         <label for="sisi1" id="label-sisi1"> Sisi Pertama </label>

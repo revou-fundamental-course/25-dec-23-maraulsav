@@ -12,7 +12,12 @@
 #sambutan, #deskripsi{
     text-align: center;
 }
-
+#gambar-luas-segitiga, #gambar-keliling-segitiga {
+    max-width: 500px;
+    width: 80%;
+    height: auto;
+    align-self: center;
+}
 /* Luas Segitiga */
 #luas-segitiga{
     text-align: center;
@@ -20,7 +25,6 @@
     background-color: aquamarine;
     border-bottom: 3px solid rgb(33, 203, 147);
 }
-
 
 /* input luas Section */
 .input-luas-section{
@@ -45,7 +49,7 @@ label{
     display: inline;
 }
 .katik-input:focus{
-    border: 1 px solid purple;
+    border: 1px solid purple;
 }
 .katik-output {
     outline: none;
@@ -54,8 +58,8 @@ label{
 .buttons{
     display: flex;
     align-self: center;
-    gap: 30 px;
-    margin-top: 10 px;
+    gap: 30px;
+    margin-top: 10px;
 }
 
 button{
@@ -91,6 +95,6 @@ button:active{
 .button{
     display: flex;
     align-self: center;
-    gap: 30 px;
-    margin-top: 10 px;
+    gap: 30px;
+    margin-top: 10px;
 }
