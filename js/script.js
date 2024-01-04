@@ -1,15 +1,15 @@
 function hitungluas(){
-    alas=document.getElementById("input-alas").value;
-    tinggi=document.getElementById("input-tinggi").value;
-    luas = 1/2*alas*tinggi;
-   document.getElementById('luas').value = luas;}
+    const alas   = document.getElementById("alas").value;
+    const tinggi = document.getElementById("tinggi").value;
+   document.getElementById('luas').value = 0.5*alas*tinggi;
+}
 
 function hitungkeliling(){
     sisi1=+document.getElementById("input-sisi1").value;
     sisi2=+document.getElementById("input-sisi2").value;
     sisi3=+document.getElementById("input-sisi3").value;
     keliling = sisi1 + sisi2 + sisi3;
-   document.getElementById('keliling').value = keliling;}
+    document.getElementById('keliling').value = keliling;}
 
 function resetForm1(){
     document.getElementById("luas").textContent=" ";

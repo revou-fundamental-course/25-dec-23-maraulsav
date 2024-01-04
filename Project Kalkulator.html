@@ -12,7 +12,7 @@
     <header>
         <h1 id="judul"> WELCOME TO KATIK </h1>
         <p id="sambutan">Hai sobat, selamat datang di KATIK :]</p>
-        <p id="sambutan">Sebuah web apps sederhana yang berfungsi untuk menghitung luas dan keliling segitiga</p>
+        <p id="deskripsi">Sebuah web apps sederhana yang berfungsi untuk menghitung luas dan keliling segitiga</p>
     </header>
     
     <section class="input-luas-section">
@@ -25,23 +25,11 @@
         <label for="input-alas" id="label-alas" > Alas (cm) </label>
         <input type="number" id="input-alas" name="alas" class="katik-input">
 
-        <tr>
-            <td>Luas</td>
-            <td>:</td>
-            <td><input type="number" id="luas" name="luas" disabled="true" size="5"></td>
-
-        </tr>
+        <label for="luas" id="label-luas">Luas :</label>
+        <input type="number" id="luas" name="luas" class="katik-output" disabled="disabled" size="5">
         <br>
-        <div class="buttons">
-            <tr>
-                <td></td>
-                <td></td>
-                <td><input type="button" value="Hitung" onclick="hitungluas()"></td>
-            </tr>
-            <button onclick="resetForm1()">Clear</button>
-        </div>
 
-
+        <input type="button" value="Hitung" class="buttons" onclick="hitungluas()">
 
     </section>
     <br>
@@ -56,20 +44,11 @@
 
         <label for="input-sisi3" id="label-sisi3" > Sisi Ketiga </label>
         <input type="number" id="input-sisi3" name="sisi3" class="katik-input">
-        <tr>
-            <td>Keliling</td>
-            <td>:</td>
-            <td><input type="number" id="keliling" name="keliling" disabled="true" size="5"></td>
-
-        </tr>
+        <label for="keliling" id="label-keliling">Keliling :</label>
+        <input type="number" id="keliling" name="keliling" class="katik-output" disabled="disabled" size="5">
         <br>
-        <div class="button">
-            <tr>
-                <td></td>
-                <td></td>
-                <td><input type="button" value="Hitung" onclick="hitungkeliling()"></td>
-            </tr>
-            <button onclick="resetForm2()">Clear</button>
+        <input class="button" type="button" value="Hitung" onclick="hitungkeliling()">
+        
         </div>
     </section>
 </body>
