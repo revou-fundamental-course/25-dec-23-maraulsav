@@ -9,7 +9,7 @@
     border-top: 2px solid rgb(64, 198, 198);  
     background-color: rgb(87, 252, 252);
 }
-#sambutan{
+#sambutan, #deskripsi{
     text-align: center;
 }
 
@@ -29,28 +29,41 @@
     margin-top: 26px;
 }
 label{
-    margin-bottom:4 px;
-    font-weight: bold ;}
-.katik-input{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: bold ;
+    display: inline;
+}
+.inline {
+    display: inline;
+}
+.katik-input {
     outline: none;
-    border-radius: 10 px;
+    border-radius: 10px;
     padding: 4px;
-    border-color: 1px blue;
+    border-color: blue;
+    border-width: 1px;
+    display: inline;
 }
 .katik-input:focus{
-    border: 1 px solid purple;
+    border: 1px solid purple;
+}
+.katik-output {
+    outline: none;
+    border-radius: 10px;
+    padding: 4px;
 }
 .buttons{
     display: flex;
     align-self: center;
-    gap: 30 px;
-    margin-top: 10 px;
+    gap: 30px;
+    margin-top: 10px;
 }
 
 button{
     background-color: darkcyan;
     color: white;
-    padding: 10 px;
+    padding: 10px;
     border-radius: 10px;
     border: none;
 }
@@ -74,6 +87,6 @@ button:active{
 .button{
     display: flex;
     align-self: center;
-    gap: 30 px;
-    margin-top: 10 px;
+    gap: 30px;
+    margin-top: 10px;
 }
